@@ -1,10 +1,10 @@
 'use client'
 
+import { fetchAnime } from "@/app/action"
 import Image from "next/image"
+import { useEffect, useState } from "react"
 import { useInView } from "react-intersection-observer"
 import AnimeCard, { AnimeProp } from "./AnimeCard"
-import { fetchAnime } from "@/app/action"
-import { useEffect, useState } from "react"
 
 let page = 2
 
@@ -35,7 +35,7 @@ const LoadMore = () => {
     <>
       <section className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-10">
         {data.map(( item: AnimeProp, index: number ) => (
-        <AnimeCard key={index} anime={item} />
+        <AnimeCard key={index} anime={item} index={index} />
         ))}
       </section>
       <section className="flex justify-center items-center w-full">
@@ -50,7 +50,7 @@ const LoadMore = () => {
             />
           )}
         </div>
-      </section>    
+      </section>
     </>
   )
 }
