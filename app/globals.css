@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 :root {
+  color-scheme: dark;
   --background: #ffffff;
   --foreground: #171717;
 }
@@ -17,5 +18,12 @@
 body {
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-dm-sans);
+}
+
+.red-gradient {
+  background: linear-gradient(92deg, #ff5956 2.87%, #ee1e38 96.18%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
