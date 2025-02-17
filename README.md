@@ -17,5 +17,5 @@
   <br />
 </div>
 
-![anime-vault-hero](https://github.com/miinhho/anime_valut_clonecoding/blob/master/images/anime-vault-1.png?raw=true)
-![anime-vault-footer](https://github.com/miinhho/anime_valut_clonecoding/blob/master/images/anime-vault-3.png?raw=true)
+![anime-vault-hero]("./images/anime-valut-1.png")
+![anime-vault-footer]("./images/anime-valut-3.png")
