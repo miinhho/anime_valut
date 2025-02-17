@@ -17,5 +17,5 @@
   <br />
 </div>
 
-![anime-vault-hero]("./images/anime-valut-1.png")
-![anime-vault-footer]("./images/anime-valut-3.png")
+![anime-vault-hero](./images/anime-vault-1.png)
+![anime-vault-footer](./images/anime-vault-3.png)
